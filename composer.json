@@ -1,0 +1,20 @@
+{
+	"name"        : "wpessential/wpessential-subscriber",
+	"version"     : "1.0.0",
+	"type"        : "library",
+	"description" : "WPEssential is a flexible extension of WordPress. Just install the WPEssential plugin form WordPress.org and get start the WordPress theme creating. WPEssential team trying to send the best quality of work and new options or features. It is open-source and themes also page builder solution in WordPress. Create any theme, anywhere and make your way. There is no `PHP`, `CSS`, `HTML` and `Javascript` coding knowledge need.",
+	"keywords"    : [
+		"wpessential",
+		"addons"
+	],
+	"homepage"    : "https://wpessential.org/",
+	"require"     : {
+		"php"                                      : ">=7.4",
+		"wpessential/wpessential-require-notifier" : "^1.0"
+	},
+	"autoload"    : {
+		"psr-4" : {
+			"WPEssential\\" : "inc/"
+		}
+	}
+}
