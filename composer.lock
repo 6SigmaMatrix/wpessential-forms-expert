@@ -4,7 +4,7 @@
 		"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
 		"This file is @generated automatically"
 	],
-	"content-hash"       : "a180cdf4268550d62819f300fd9ea704",
+	"content-hash"       : "4a40571b886e09fc1021bb06ec574388",
 	"packages"           : [
 		{
 			"name"             : "wpessential/wpessential-require-notifier",

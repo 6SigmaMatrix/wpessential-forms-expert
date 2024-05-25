@@ -1,6 +1,6 @@
 <?php
 
-use WPEssential\Plugins\Subscriber\DataBase\DatabaseInit;
+use WPEssential\Plugins\FormsExpert\DataBase\DatabaseInit;
 
 if ( ! \defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.

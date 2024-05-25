@@ -8,8 +8,8 @@
  *
  * @since  1.0.0
  */
-if ( ! defined( 'WPESUB_VERSION' ) ) {
-	define( 'WPESUB_VERSION', '1.0.0' );
+if ( ! defined( 'WPEFE_VERSION' ) ) {
+	define( 'WPEFE_VERSION', '1.0.0' );
 }
 
 /**
@@ -17,8 +17,8 @@ if ( ! defined( 'WPESUB_VERSION' ) ) {
  *
  * @since  1.0.0
  */
-if ( ! defined( 'WPESUB_DIR' ) ) {
-	define( 'WPESUB_DIR', plugin_dir_path( __FILE__ ) );
+if ( ! defined( 'WPEFE_DIR' ) ) {
+	define( 'WPEFE_DIR', plugin_dir_path( __FILE__ ) );
 }
 
 /**
@@ -26,6 +26,6 @@ if ( ! defined( 'WPESUB_DIR' ) ) {
  *
  * @since  1.0.0
  */
-if ( ! defined( 'WPESUB_URL' ) ) {
-	define( 'WPESUB_URL', plugin_dir_url( __FILE__ ) );
+if ( ! defined( 'WPEFE_URL' ) ) {
+	define( 'WPEFE_URL', plugin_dir_url( __FILE__ ) );
 }

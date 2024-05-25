@@ -67,7 +67,7 @@ export default {
 				url      : this.$WPE_AJAX_URL,
 				type     : 'GET',
 				data     : {
-					action : this.$WPE_AJAX_PREFIX + '_get_subscribers',
+					action : this.$WPE_AJAX_PREFIX + '_get_forms_entries',
 					nonce  : this.$WPE_NONCE
 				},
 				success  : res =>
@@ -103,7 +103,7 @@ export default {
 				url      : this.$WPE_AJAX_URL,
 				type     : 'POST',
 				data     : {
-					action : this.$WPE_AJAX_PREFIX + '_dell_subscribers',
+					action : this.$WPE_AJAX_PREFIX + '_dell_forms_entries',
 					id     : $id,
 					nonce  : this.$WPE_NONCE
 				},
